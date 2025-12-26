@@ -6,6 +6,11 @@ import za.ac.tut.entity.Student;
 import java.sql.*;
 import java.util.ArrayList;
 
+/**
+ * StudentDB provides database access for Student entities. This class
+ * encapsulates all JDBC logic and SQL queries.
+ */
+
 public class StudentDB implements DAO<Student>
 {
     private Connection connection;
@@ -148,3 +153,4 @@ public class StudentDB implements DAO<Student>
     }
     
 }
+
