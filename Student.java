@@ -1,8 +1,12 @@
 package za.ac.tut.entity;
 
+/**
+ * Represents a Student entity. This class is a simple POJO used to transfer
+ * data between the application and the database layer.
+ */
+
 public class Student {
 
-    //Declare variables.
     private Integer studNum;
     private String name;
     private String surname;
@@ -48,3 +52,4 @@ public class Student {
     }
 
 }
+
